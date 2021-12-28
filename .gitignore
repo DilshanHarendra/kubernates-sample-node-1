@@ -1,3 +1,5 @@
 .idea
 
 deploy/main.tf
+
+node_modules
