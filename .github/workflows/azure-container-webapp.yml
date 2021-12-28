@@ -25,7 +25,6 @@ jobs:
 
       - name: Docker build
         run: |
-          make show-all
           echo start docker build
           docker build --no-cache -t ${{secrets.DOCKER_SERVER}}/kubernates-node-app:latest .
           echo build completed
